@@ -2,7 +2,7 @@
 alias ls="exa --time-style=long-iso --group-directories-first --icons -l --git"
 
 # Shows a file tree with exa
-alias ts="exa --time-style=long-iso --group-directories-first -Tal --git"
+alias lt="exa --time-style=long-iso --group-directories-first -Tl --git"
 
 # Function that uses fzf to checkout an existing branch and can be used with -a or -r to
 # include both local and remote branches or just remote branches respectively.
